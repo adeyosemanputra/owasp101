@@ -1,0 +1,16 @@
+POST /api/Users/ HTTP/1.1
+Host: 192.168.8.108:3000
+Content-Length: 260
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+Content-Type: application/json
+Origin: http://192.168.8.108:3000
+Referer: http://192.168.8.108:3000/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=5VO3DL3k6vO5eWYryoaQPNZEpzdK5TZiDa0714KMVRXxnlg9BJbqw8mj2wRD
+Connection: close
+
+{"email":"user99@user.com","password":"password","passwordRepeat":"password",
+"role":"admin",
+"securityQuestion":{"id":2,"question":"Mother's maiden name?","createdAt":"2021-04-26T12:43:30.427Z","updatedAt":"2021-04-26T12:43:30.427Z"},"securityAnswer":"pwd"}
