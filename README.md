@@ -16,7 +16,7 @@ Browse to http://localhost:3000 (on macOS and Windows browse to http://192.168.9
 
 DVWA Setup by Docker<br>
 docker pull vulnerables/web-dvwa<br>
-docker run --rm -it -p 80:80 vulnerables/web-dvwa
+docker run --rm -it -p 80:80 vulnerables/web-dvwa<br>
 buka di browser http://localhost/login.php
 
 referensi https://hub.docker.com/r/vulnerables/web-dvwa/
